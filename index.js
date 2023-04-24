@@ -1,3 +1,7 @@
-export function multiplicar(n1, n2){
-    return n1*n2
+import {somar, subtrair} from "./operations.js"
+
+
+export const operations = {
+    somar,
+    subtrair
 }
