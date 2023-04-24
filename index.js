@@ -1,7 +1,13 @@
-import {somar, subtrair} from "./operations.js"
+import { multiplica } from "./methods/multiplica.js"
+import { soma } from "./methods/soma.js"
+import { subtrai } from "./methods/subtrai.js"
 
 
-export const operations = {
-    somar,
-    subtrair
+class MyMath {
+    soma = soma
+    subtrai = subtrai
+    multiplica = multiplica
 }
+
+
+export default new MyMath
